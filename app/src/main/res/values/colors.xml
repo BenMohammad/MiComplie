@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/colorAccent5</color>
+    <color name="colorPrimaryDark">@color/colorAccent5</color>
+    <color name="colorAccent">#d9a5b3</color>
+    <color name="colorAccent1">#1868ae</color>
+    <color name="colorAccent2">#c6d7eb</color>
+    <color name="colorAccent3">#b85042</color>
+    <color name="colorAccent4">#e7e8d1</color>
+    <color name="colorAccent5">#a7beae</color>
+
+
+    <color name="dark_colorPrimary">#646464</color>
+    <color name="dark_colorPrimaryDark">#000000</color>
+    <color name="dark_colorAccent">#66DB903D</color>
+
+    <color name="black">#000</color>
+    <color name="white">#FFF</color>
+    <color name="save_btn_color">#6271C5</color>
+    <color name="save_btn_color_dark">#666271C5</color>
+    <color name="stop_btn_color">#B64545</color>
+    <color name="stop_btn_color_dark">#66B64545</color>
+    <color name="run_btn_color">#46A37E</color>
+    <color name="run_btn_color_dark">#6646A37E</color>
+    <color name="top_bar_background_color">#FFF</color>
+    <color name="top_bar_background_color_dark">#383838</color>
+    <color name="editor_background_color">#F5F5F5</color>
+    <color name="editor_background_color_dark">#646464</color>
+    <color name="editor_hint_color">#E5E5E5</color>
+</resources>
