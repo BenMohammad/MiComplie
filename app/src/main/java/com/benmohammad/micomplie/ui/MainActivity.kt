@@ -30,11 +30,9 @@ import com.benmohammad.micomplie.core.lexing.Scanner
 import com.benmohammad.micomplie.core.parsing.*
 import com.benmohammad.micomplie.data.AppDatabase
 import com.benmohammad.micomplie.data.InjectorUtils
-import com.benmohammad.micomplie.databinding.ActivityLoginBinding.inflate
 import com.benmohammad.micomplie.databinding.ActivityMainBinding
 import com.benmohammad.micomplie.ui.viewmodel.EditorViewModel
 import com.google.android.material.bottomsheet.BottomSheetDialog
-import kotlinx.android.synthetic.main.activity_login.*
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -108,6 +106,7 @@ class MainActivity : AppCompatActivity() {
             queryHint = "Search document"
 
             queryTextListener = object : SearchView.OnQueryTextListener {
+
                 override fun onQueryTextChange(newText: String): Boolean = false
 
                 override fun onQueryTextSubmit(query: String): Boolean {

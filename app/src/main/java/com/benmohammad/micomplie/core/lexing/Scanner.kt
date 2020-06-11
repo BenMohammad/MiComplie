@@ -23,10 +23,11 @@ class Scanner: IScanner {
         else text[position].toString()
 
         val result =
-            "LINE: ${currentLine()} \n\n" +
-                    "CHARACTER: $v \n\n"  +
-                    "POSITION: ${location.x} , ${location.y}\n\n" +
-                    "MESSAGE: $message"
+            "LINE:  ${currentLine()} \n\n" +
+                    "CHARACTER:  $v \n\n " +
+                    "POSITION:  ${location.x} , ${location.y}\n\n" +
+                    "MESSAGE:  $message"
+
 
         Log.e("AbortSyntax", result)
         return result
@@ -60,7 +61,7 @@ class Scanner: IScanner {
             stringBuilder.append(text[position])
             if(text[position].toString() == "\n") {
                 location.x++
-                location.y - 1
+                location.y = 1
             } else
                 location.y++
 
